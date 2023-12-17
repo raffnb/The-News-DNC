@@ -1,9 +1,13 @@
+import "./style.css"
+
 
 const Menu = () => {
   return (
-    <div>
-        Menu
-    </div>
+ <nav className="menu">
+  <button>Menu</button>
+  <div>Logo</div>
+  <button>Login</button>
+ </nav>
   )
 }
 
