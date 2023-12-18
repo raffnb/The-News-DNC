@@ -3,6 +3,7 @@ import './globals.css'
 import Menu from '@/components/Menu'
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -13,9 +14,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Menu />
-        
+      <body className={inter.className}>      
+<Menu/>
         {children}</body>
     </html>
   )

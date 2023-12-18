@@ -1,5 +1,7 @@
+'use client'
 import CadastroForm from '@/components/CadastroForm'
 import React from 'react'
+
 
 const CadastroPage = () => {
   return (
